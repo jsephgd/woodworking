@@ -1,6 +1,10 @@
-.header { text-align: center; padding: 20px; background-color: aliceblue;
-  margin: 0;
-    padding: 0; 
+.header { text-align: center; padding: 20px; background-color: rgb(222, 238, 252);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  
+
     
 }
 
