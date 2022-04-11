@@ -1,3 +1,9 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 #gallery {
   line-height:0;
   -webkit-column-count:5; /* split it into 5 columns */
@@ -53,5 +59,29 @@
 }
 */
 body{
-  background-image: url("pictures/party.jpg")
+  background-color: white;
 }
+
+
+.header { text-align: center; color: rgb(0, 0, 0); background-color: white; padding: 20px;
+}
+
+p {background-color: white; padding: 20px;}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    
+    
+    height: 20px;
+    flex: 1 1 auto;
+    float: left;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 
