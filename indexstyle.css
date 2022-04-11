@@ -1,7 +1,7 @@
-.header { text-align: center; padding: 20px;
+.header { text-align: center; padding: 20px; background-color: aliceblue; 
 }
 
-p { color: white; padding: 20px;}
+p { color: rgb(0, 0, 0); padding: 20px;}
 
 .flex-container {
     display: flex;
@@ -21,7 +21,9 @@ p { color: white; padding: 20px;}
   }
  
 /*body {background-image: url("Pictures/indexbg.jpg") ;}*/
-body {background-image: url("pictures/wholegrain.jpg") ;}
+body {background-image: url("pictures/wholegrain.jpg") ;
+background-size: cover;
+}
 
 
 p {
@@ -29,5 +31,5 @@ p {
 }
 
 h1 {
-        font-family: 'Courier New', Courier, monospace; color: white;
+        font-family: 'Courier New', Courier, monospace; color: black;
 }
