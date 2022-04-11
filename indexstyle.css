@@ -1,4 +1,4 @@
-.header { text-align: center; padding: 20px; background-color: rgb(222, 238, 252);
+.header { text-align: center; padding: 10px; background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0px;
   left: 0px;
@@ -16,6 +16,7 @@ p { color: rgb(0, 0, 0); padding: 20px;font-family: Arial, Helvetica, sans-serif
     justify-content: center;
     margin: 0;
     padding: 0;
+    
   }
   
   /* this selector selects all divs inside of .flex-container */
@@ -29,10 +30,11 @@ p { color: rgb(0, 0, 0); padding: 20px;font-family: Arial, Helvetica, sans-serif
     padding-left: 10px;
     padding-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
   }
  
 /*body {background-image: url("Pictures/indexbg.jpg") ;}*/
-body {background-image: url("pictures/wholegrain.jpg") ;
+body {background-image: url("pictures/party.jpg") ;
 background-size: cover;
 }
 
@@ -43,4 +45,8 @@ p {
 
 h1 {
   font-family: Arial, Helvetica, sans-serif; color: black;
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
 }
