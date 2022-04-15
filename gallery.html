@@ -6,21 +6,29 @@
   <title>Image Gallery</title>
   <meta name="description" content="Responsive Image Gallery">
   <link rel="stylesheet" href="gallery.css">
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
   <meta name="author" content="Joe">
   
   <style type="text/css">  </style>
 </head>
 <div class="header">
+  <style>
+    h1,h3 {
+        font-family: 'Abel';font-size: 22px;
+    }
+    </style>
   <h1>Gallery</h1>
   
-  <div class="flex-container">
-      <ul>
-          <div class="home"><li><a href="index.html">Home</a></li></div>
-          <div class="Gallery"><li><a href="gallery.html">Gallery</a></li></div>
-          <div class="three"><li><a href="underconstruction/underconstruction.html">Pricing</a></li></div>
-          <div class="three"><li><a href="underconstruction/underconstruction.html">Contact</a></li></div>
-      </ul>
-    </div>
+  <script src="gallery.js"></script>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="underconstruction/underconstruction.html">Pricing</a>
+          <a href="underconstruction/underconstruction.html">Contact</a>
+        </div>
+      </div> 
   </div>
 <body><div id="gallery">
   
