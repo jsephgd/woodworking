@@ -32,6 +32,18 @@ p {
 
 /********************************  TEST SECTION ****************************/
 
+.gallerytitle{
+
+  background-color: #111;
+  padding: 50%;
+  padding-top: 100px;
+}
+
+/********************************  TEST SECTION END ****************************/
+
+/******************************** NAV MENU START ****************************/
+
+/*Menu Location */
 span {
   position: fixed;
   top: 0px;
@@ -43,10 +55,6 @@ span {
   font-family:'Abel';font-size: 15px;;
 
 }
-
-/********************************  TEST SECTION END ****************************/
-
-/******************************** NAV MENU START ****************************/
 
  /* The side navigation menu */
  .sidenav {
