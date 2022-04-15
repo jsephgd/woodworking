@@ -1,201 +1,159 @@
-.header { text-align: center; padding: 10px; background-color: rgb(255, 255, 255);
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  font-family: 'Times New Roman', Times, serif;
-  
+/********************************  IMPORT FONTS ****************************/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
-    
-}
+/********************************  IMPORT FONTS END ****************************/
 
-
-
-p { color: rgb(0, 0, 0); padding: 20px;font-family: 'Able' ; font-size:  22px; }
-.flex-container {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    
-  }
-  
- /* Dropdown Button */
- .dropbtn {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  position: left;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #ddd;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: sticky;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: relative;
-  background-color: #f1f1f1;
-  min-width: 300px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;} 
-
-  /* this selector selects all divs inside of .flex-container 
-  .flex-container div {
-    
-    
-    height: 20px;
-    flex: 1 1 auto;
-    float: left;
-    list-style-type: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: darkgray;
-  }
- */
-
-
-
-
-
-p {
-    text-align: center;
-}
+/********************************  TEXT AUG START ****************************/
 
 h1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: black;
-}
-
-h3{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold'
-}
-
-/*Slideshow*/
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  overflow:auto;
-  max-width: 1000px;
+  font-family: 'Abel';font-size: 30px;
   position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* Position the "next button" to the right */
-.prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+
+h3 {
+  font-family: 'Abel';font-size: 22px;
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+}
+
+p {
+  font-family: 'Abel';font-size: 22px;
+  position: relative;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/********************************  TEXT AUG END ****************************/
+
+/********************************  TEST SECTION ****************************/
+
+span {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  display: block;
+  background: #111;
+  padding: 2%;
+  color: white;
+
+}
+
+/********************************  TEST SECTION END ****************************/
+
+/******************************** NAV MENU START ****************************/
+
+ /* The side navigation menu */
+ .sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
   position: absolute;
   top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
+
+/********************************  NAV MENU END ****************************/
+
+
+/******************************** GALLERY START ****************************/
+#gallery {
+  line-height:0;
+  -webkit-column-count:5; /* split it into 5 columns */
+  -webkit-column-gap:5px; /* give it a 5px gap between columns */
+  -moz-column-count:5;
+  -moz-column-gap:5px;
+  column-count:5;
+  column-gap:5px;
 }
 
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; /* to match column gap */
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+@media (max-width: 1200px) {
+  #gallery {
+   -moz-column-count:    4;
+   -webkit-column-count: 4;
+   column-count:         4;
+  }
+}
+
+@media (max-width: 1000px) {
+  #gallery {
+   -moz-column-count:    3;
+   -webkit-column-count: 3;
+   column-count:         3;
+  }
 }
 
 
+@media (max-width: 800px) {
+  #gallery {
+   -moz-column-count:    2;
+   -webkit-column-count: 2;
+   column-count:         2;
+  }
+}
+
+
+@media (max-width: 400px) {
+  #gallery {
+   -moz-column-count:    1;
+   -webkit-column-count: 1;
+   column-count:         1;
+  }
+}
+
+
+/********************************  GALLERY END ****************************/
 
 
 
