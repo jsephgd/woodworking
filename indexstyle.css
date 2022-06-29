@@ -176,9 +176,9 @@ span {
 
 
 input[type=text], select, textarea {
-  width: 100%;
+  width: 50%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -187,7 +187,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #5DADE2;
+  background-color: #000000;
   color: white;
   padding: 12px 20px;
   border: none;
