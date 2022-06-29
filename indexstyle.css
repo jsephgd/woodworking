@@ -185,6 +185,7 @@ span {
   font-weight: 400;
   color: #000000;
   text-align: center;
+  float: center;
 }
 /*input[type=text], select, textarea {
   width: 50%;
