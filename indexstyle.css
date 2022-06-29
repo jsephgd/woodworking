@@ -172,21 +172,8 @@ span {
 
 /******************************** Contact Start ***************************/
 
-#contact {
-  font-family: 'Abel';font-size: 22px;
-  position: relative;
-  text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
-}
 
-#fcf-body {
-  font-family: Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #070707;
-  text-align:center;
-}
+
 
 input[type=text], select, textarea {
   width: 100%;
