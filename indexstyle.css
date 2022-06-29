@@ -6,6 +6,12 @@
 
 /********************************  TEXT AUG START ****************************/
 
+body {
+  position: relative;
+  text-align: center;
+  padding: 40%;
+}
+
 h1 {
   font-family: 'Abel';font-size: 30px;
   position: relative;
