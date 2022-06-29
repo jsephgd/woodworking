@@ -34,6 +34,13 @@ p {
   padding-right: 15%;
 }
 
+.label {
+  font-family: 'Abel';font-size: 22px;
+  position: relative;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 /********************************  TEXT AUG END ****************************/
 
 /********************************  TEST SECTION ****************************/
@@ -173,11 +180,11 @@ span {
 /******************************** Contact Start ***************************/
 
 .fcf-body {
-  font-family: -apple-system, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #0000ff;
-  text-align: left;
+  color: #070707;
+  text-align:center;
 }
 
 input[type=text], select, textarea {
