@@ -179,13 +179,14 @@ span {
 /******************************** Contact Start ***************************/
 
 
-.fcf-body {
+.contact {
   font-family: -apple-system, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #000000;
   text-align: center;
   float: center;
+  background-color: #000000;
 }
 /*input[type=text], select, textarea {
   width: 50%;
