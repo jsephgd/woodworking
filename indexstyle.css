@@ -206,6 +206,38 @@ span {
   font-size: 15px;
 }
 
+.contact {
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  float: none;
+  background-color: #979797;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+.footer {
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  float: none;
+  background-color: #000000;
+   
+  
+}
+
+.p.footer {
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+
+}
+
 /*#fcf-form-id .fcf-form-class {
   text-align: center;
 }
