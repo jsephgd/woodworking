@@ -58,7 +58,7 @@ span {
   left: 0;
   display: block;
   background: #111;
-  padding: 2%;
+  padding: 1%;
   color: white;
   font-family:'Abel';font-size: 15px;;
 
@@ -97,9 +97,10 @@ span {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  padding: 10%;
+  /*right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 50px; */
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -238,40 +239,10 @@ span {
 
 }
 
-/*#fcf-form-id .fcf-form-class {
-  text-align: center;
+.main {
+  padding-bottom: 6%;
+  padding-top: 3%;
 }
-
-.contact {
-  font-family: -apple-system, Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #000000;
-  text-align: center;
-  float: none;
-  background-color: #000000;
-}
-input[type=text], select, textarea {
-  width: 50%;
-  padding: 12px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  float: none;
-  text-align: center;
-}
-
-input[type=submit] {
-  background-color: #000000;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-}
-
 
 
 
