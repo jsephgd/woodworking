@@ -198,6 +198,8 @@ span {
   position: relative;
   text-align: center;
   font-size: 15px;
+  width: 100%;
+  
 }
 
 .fcf-label {
